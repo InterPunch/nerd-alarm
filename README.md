@@ -1,0 +1,2 @@
+# nerd-alarm
+Detect nerds
