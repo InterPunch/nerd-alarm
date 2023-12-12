@@ -1,4 +1,5 @@
 import tkinter as tk
+import random
 
 des = ["wears glasses", "is in a Hoodie", "is wearing Headphones", "is in a T-shirt", "has Brown hair", "has Blonde hair", "is White"]
 
