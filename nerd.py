@@ -24,7 +24,7 @@ root = tk.Tk()
 root.title("Main Window")
 
 # Add a button to trigger the warning window
-warning_button = tk.Button(root, text="Show Warning", command=show_warning)
+warning_button = tk.Button(root, text="Run Scan", command=show_warning)
 warning_button.pack(pady=50)
 
 # Start the Tkinter event loop
