@@ -3,8 +3,8 @@ import random
 
 des = ["wears glasses", "is in a Hoodie", "is wearing Headphones", "is in a T-shirt", "has Brown hair", "has Blonde hair", "is White"]
 
+nerd = random.sample(des, 3)
 def show_warning():
-    nerd = random.sample(des, 3)
     # Create the warning window
     warning_window = tk.Toplevel(root)
     warning_window.title("Warning")
