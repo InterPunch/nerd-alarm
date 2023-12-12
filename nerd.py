@@ -1,6 +1,9 @@
 import tkinter as tk
 
+des = ["wears glasses", "is in a Hoodie", "is wearing Headphones", "is in a T-shirt", "has Brown hair", "has Blonde hair", "is White"]
+
 def show_warning():
+    nerd = random.sample(des, 3)
     # Create the warning window
     warning_window = tk.Toplevel(root)
     warning_window.title("Warning")
@@ -13,6 +16,7 @@ def show_warning():
 
     # Add a label with the warning text
     warning_label = tk.Label(warning_window, text="Nerd Detected!", font=("Helvetica", 16), fg="white", bg="red")
+    warning_label = tk.Label(warning_window, text="The nerd is" + str(nerd), font=("Helvetica", 16), fg="white", bg="red")
     warning_label.pack(pady=20)
 
     # Add a button to close the warning window
